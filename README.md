@@ -1,29 +1,32 @@
-# 📊 Análisis Exploratorio de Datos (EDA) - Dataset de Autos
+# 📊 Exploratory Data Analysis - Mtcars Dataset
 
-## 📌 Descripción general
-Este proyecto realiza un **Análisis Exploratorio de Datos (EDA)** sobre un dataset de autos con el objetivo de identificar patrones, relaciones y obtener insights relevantes sobre el consumo de combustible y características de los vehículos.
+## 📌 Objective
 
-El análisis incluye:
-- Limpieza y preparación de datos
-- Tratamiento de valores nulos y duplicados
-- Análisis estadístico
-- Visualizaciones interactivas
-- Generación de reporte automático
+Perform an exploratory data analysis to understand relationships between variables such as mpg, horsepower, and weight.
 
----
+## 🛠 Tools & Technologies
 
-## 🎯 Objetivos
-- Analizar la distribución de variables clave (MPG, peso, caballos de fuerza)
-- Identificar correlaciones entre variables
-- Detectar outliers y posibles anomalías
-- Generar un reporte profesional e interactivo
+* Python
+* Pandas
+* NumPy
+* Matplotlib / Seaborn
 
----
+## 📂 Dataset
 
-## 🛠️ Tecnologías utilizadas
-- **Python**
-- **Pandas**
-- **Plotly**
-- **Matplotlib / Seaborn**
-- **ydata-profiling**
+Source: https://raw.githubusercontent.com/selva86/datasets/master/mtcars.csv
 
+## 📈 Key Insights
+
+* Cars with higher horsepower tend to consume more fuel
+* Weight strongly impacts fuel efficiency
+* Manual cars show better mpg on average
+
+## ▶️ How to Run
+
+1. Open the notebook in Google Colab
+   👉 https://colab.research.google.com/github/tuusuario/tu-repo/blob/main/EDA_mtcars.ipynb
+2. Run all cells
+
+## 👨‍💻 Author
+
+Elías Condori
